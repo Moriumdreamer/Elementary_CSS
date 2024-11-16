@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HTML TABlE</title>
+    <style>
+        h1{
+            text-align: left;
+        }
+        
+        table{
+            border-collapse: collapse;
+        }
+        h3,p{
+            color: rgb(14, 163, 212);
+        }
+        .parent-div{
+            display: flex;
+        }
+        .second-div{
+            margin-left: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Table in HTML</h1>
+    <table border="2">
+    <tr>
+        
+        <th rowspan="2"> <span style="padding: 20px;">Ayesha</span></th>
+        <th><span style="padding: 10px;">Baba</span></th>
+        <th rowspan="3"> <span style="padding: 20px;">Dad</span></th>
+        <th colspan="2">Enemy</th>
+        <th>Friend</th>
+    </tr>
+
+    <tr>
+        <td> <span style="padding: 10px;">color</span></td>
+        <td rowspan="2"> <span style="padding: 10px;">Go</span></td>
+        <td rowspan="2"> <span style="padding: 10px;">Hello</span></td>
+        <td rowspan="2"> <span style="padding: 10px;">Italy</span></td>
+    </tr>
+
+    <tr>
+        <td colspan="2"> <span style="padding: 50px;">January</span></td>
+    </tr>
+
+    <tr>
+        <td colspan="3"> <span style="padding: 80px;">Know</span></td>
+        <td> <span style="padding: 10px;">Long</span></td>
+        <td colspan="2"> <span style="padding: 25px;">Mother</span></td>
+    </tr>
+    </table>
+    <div class="parent-div">
+    <div class="first-div">
+    <h3>HLMl Table tag</h3>
+    <p><i class="fa-solid fa-check"></i> <span style="margin-left: 5px;">table</span></p>
+    <p><i class="fa-solid fa-check"></i> <span style="margin-left: 5px;">tr</span></p>
+    <p><i class="fa-solid fa-check"></i> <span style="margin-left: 5px;">td</span></p>
+    <p><i class="fa-solid fa-check"></i> <span style="margin-left: 5px;">th</span></p>
+    </div>
+
+    <div class="second-div">
+    <h3>Attribute</h3>
+    <p><i class="fa-solid fa-check"></i> <span style="margin-left: 5px;">rowsoan</span></p>
+    <p><i class="fa-solid fa-check"></i> <span style="margin-left: 5px;">colspan</span></p>
+    <p><i class="fa-solid fa-check"></i> <span style="margin-left: 5px;">border</span></p>
+    </div>
+    </div>
+</body>
+</html>
